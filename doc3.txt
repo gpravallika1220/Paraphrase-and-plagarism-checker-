@@ -1,0 +1,67 @@
+CSE1029 DIGITAL ASSIGNMENT 1
+OS Security:	
+•	The term operating system (OS) security refers to practices and measures that can ensure the confidentiality, integrity, and availability (CIA) of operating systems.
+•	The goal of OS security is to protect the OS from various threats, including malicious software such as worms, trojans and other viruses, misconfigurations, and remote intrusions.
+•	OS security typically involves the implementation of control techniques that can protect your assets from unauthorized modification and deletion or theft.
+•	The most common techniques used to protect operating systems include the use of antivirus software and other endpoint protection measures, regular OS patch updates, a firewall for monitoring network traffic, and enforcement of secure access through least privileges and user controls.
+Here are a few of the most common threat vectors that can affect an operating system.
+Malware: Malware is short for malicious software, which encompasses a range of attack vectors such as viruses, worms, trojans, and rootkits. Malware is injected into a system without the owner’s consent, or by masquerading as legitimate software, with the objective of stealing, destroying or corrupting data, or compromising the device.
+Denial of Service Attacks: A Denial of Service (DoS) attack is intended to clog a system with fake requests so it becomes overloaded, and eventually stops serving legitimate requests. Some DoS attacks, in addition to overwhelming a system’s resources, can cause damage to the underlying infrastructure.
+Network Intrusion: Network intrusion occurs when an individual gains access to a system for improper use. 
+Authentication Measures: Authentication involves matching an identified user with the programs or data they are allowed to access. All operating systems have controls that can be used to verify that users who run a particular program are authorized to do so.
+You can use the following techniques to authenticate users at the operating system level:
+o	Security keys: keys are provided by a key generator, usually in the form of a physical dongle. The user must insert the key into a slot in the machine to log in.
+o	Username-password combinations: The user enters a username that is registered with the OS, along with a matching password.
+o	Biometric signatures: The user scans a physical attribute, such as a fingerprint or retina, to identify themselves.
+Using One-Time Passwords: One-time passwords offer an additional layer of security when combined with standard authentication measures. Users must enter a unique password generated each time they log in to the system. A one-time password cannot be reused.
+Testing and Validating Operating System Security
+Securing an operating system or any software is an ongoing process that requires constant testing. Depending on the risk and priority of a system, security posture tests may take place on a monthly, weekly or daily basis. Here are a few testing methods you can use.
+Vulnerability Assessment: Vulnerability assessment involves testing for weaknesses that may be lying undetected in an operating system. Identifying vulnerabilities allows you to identify possible vectors for an attack so you can better understand the risk to your system.
+The following are some of the typical methods used for OS vulnerability assessment:
+•	Scanning for known vulnerabilities
+•	Scanning the software and applications on an operating system
+•	Scanning for malware
+•	Scanning for missing patches and updates
+•	Patch testing
+•	Port scanning
+Penetration Testing: Penetration testing, or pen testing, is a security assessment strategy that uses vulnerability assessment to identify how an attacker may successfully exploit vulnerabilities in the system. The penetration testing method involves simulating an exploit to evaluate system security.
+Database Security:
+Database security refers to the range of tools, controls, and measures designed to establish and preserve database confidentiality, integrity, and availability. 
+Database security must address and protect the following:
+•	The data in the database
+•	The database management system (DBMS)
+•	Any associated applications
+•	The physical database server and/or the virtual database server and the underlying hardware
+•	The computing and/or network infrastructure used to access the database
+By definition, a data breach is a failure to maintain the confidentiality of data in a database. How much harm a data breach inflicts on your enterprise depends on a number of consequences or factors:
+•	Compromised intellectual property
+•	Damage to brand reputation
+•	Business continuity (or lack thereof)
+•	Fines or penalties for non-compliance
+•	Costs of repairing breaches and notifying customers
+The following are among the most common types or causes of database security attacks and their causes.
+Insider threats: An insider threat is a security threat from any one of three sources with privileged access to the database:
+•	A malicious insider who intends to do harm
+•	A negligent insider who makes errors that make the database vulnerable to attack
+•	An infiltrator—an outsider who somehow obtains credentials via a scheme such as phishing or by gaining access to the credential database itself
+Human error: Accidents, weak passwords, password sharing, etc.
+
+Exploitation of database software vulnerabilities: Hackers make their living by finding and targeting vulnerabilities in all kinds of software, including database management software. All major commercial database software vendors and open-source database management platforms issue regular security patches to address these vulnerabilities, but failure to apply these patches in a timely fashion can increase your exposure.
+SQL/NoSQL injection attacks: A database-specific threat, these involve the insertion of arbitrary SQL or non-SQL attack strings into database queries served by web applications or HTTP headers. Organizations that don’t follow secure web application coding practices and perform regular vulnerability testing are open to these attacks.
+Buffer overflow exploitations: Buffer overflow occurs when a process attempts to write more data to a fixed-length block of memory than it is allowed to hold. Attackers may use the excess data, stored in adjacent memory addresses, as a foundation from which to launch attacks.
+Denial of service (DoS/DDoS) attacks: In a denial of service (DoS) attack, the attacker deluges the target server—in this case the database server—with so many requests that the server can no longer fulfil legitimate requests from actual users, and, in many cases, the server becomes unstable or crashes.
+Malware: Malware is software written specifically to exploit vulnerabilities or otherwise cause damage to the database. Malware may arrive via any endpoint device connecting to the database’s network.
+Attacks on backups: Organizations that fail to protect backup data with the same stringent controls used to protect the database itself can be vulnerable to attacks on backups.
+When evaluating database security in your environment to decide on your team’s top priorities, consider each of the following areas:
+•	Physical security
+•	Administrative and network access controls
+•	End user account/device security
+•	Encryption
+•	Database software security
+•	Application/web server security
+•	Backup security
+•	Auditing
+In addition to implementing layered security controls across your entire network environment, database security requires you to establish the correct controls and policies for access to the database itself. These include:
+•	Administrative controls 
+•	Preventative controls 
+•	Detective controls 

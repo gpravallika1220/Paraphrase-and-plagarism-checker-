@@ -1,0 +1,93 @@
+Cyber Security Attack case study:
+Denial-of-Service->>
+How is the attack done?
+A Denial-of-Service (DoS) attack is an attack meant to shut down a machine or network,
+making it inaccessible to its intended users. DoS attacks accomplish this by flooding the
+target with traffic, or sending it information that triggers a crash. In both instances, the DoS
+attack deprives legitimate users i.e. account holders of the service or resource they
+expected.
+Victims of DoS attacks often target web servers of high-profile organizations such as
+banking, commerce, and media companies, or government and trade organizations. Though
+DoS attacks do not typically result in the theft or loss of significant information or other
+assets, they can cost the victim a great deal of time and money to handle.
+There are two general methods of DoS attacks: flooding services or crashing services. Flood
+attacks occur when the system receives too much traffic for the server to buffer, causing
+them to slow down and eventually stop. Popular flood attacks include:
+Buffer overflow attacks – the most common DoS attack. The concept is to send more traffic
+to a network address than the programmers have built the system to handle. It includes the
+attacks listed below, in addition to others that are designed to exploit bugs specific to
+certain applications or networks
+ICMP flood – leverages misconfigured network devices by sending spoofed packets that
+ping every computer on the targeted network, instead of just one specific machine. The
+network is then triggered to amplify the traffic
+SYN flood – sends a request to connect to a server, but never completes the handshake.
+Continues until all open ports are saturated with requests and none are available for
+legitimate users to connect to.
+Other DoS attacks simply exploit vulnerabilities that cause the target system or service to
+crash. In these attacks, input is sent that takes advantage of bugs in the target that
+subsequently crash or severely destabilize the system, so that it can’t be accessed or used.
+An additional type of DoS attack is the Distributed Denial of Service (DDoS) attack. A DDoS
+attack occurs when multiple systems orchestrate a synchronized DoS attack to a single
+target. The essential difference is that instead of being attacked from one location, the
+target is attacked from many locations at once. The distribution of hosts that defines a DDoS
+provide the attacker multiple advantages:
+• He can leverage the greater volume of machine to execute a seriously disruptive
+attack
+• The location of the attack is difficult to detect due to the random distribution of
+attacking systems (often worldwide)
+• It is more difficult to shut down multiple machines than one
+• The true attacking party is very difficult to identify, as they are disguised behind
+many (mostly compromised) systems
+Modern security technologies have developed mechanisms to defend against most forms of
+DoS attacks, but due to the unique characteristics of DDoS, it is still regarded as a higher
+concern to organizations that fear being targeted by such an attack.
+How Long Does DOS attack persists?
+Depending on the severity of an attack, resources could be offline for 24 hours, multiple
+days or even a week. In fact, a survey by Kaspersky Lab revealed that one in five DDoS
+attacks can last for days or even weeks, attesting their sophistication and serious threat
+posed to all businesses.
+These attacks can persist for weeks; the longest continuous period noted so far lasted 38
+days. This attack involved approximately 50+ petabits (50,000+ terabits) of malicious traffic.
+According to the IDG report, 36 percent of companies experiencing more than five DDoS
+attacks suffer an average downtime of seven to 12 hours.
+Prevention->>
+1. Know your network’s traffic
+Every organization’s infrastructure has typical Internet traffic patterns — know yours. When
+you understand your organization’s normal traffic pattern, you’ll have a baseline. That way,
+when unusual activity occurs, you can identify the symptoms of a DDoS attack.
+2. Create a Denial of Service Response Plan
+By defining a plan in advance, you’ll be able to respond quickly and efficiently when your
+network is targeted. This can take some planning; the more complex your infrastructure, the
+more detailed your DDoS response plan will be.
+3. Make your network resilient
+Your infrastructure should be as resilient as possible against DDoS attacks. That means more
+than firewalls because some DDoS attacks target firewalls.
+4. Practice good cyber hygiene
+It goes without saying that your users should be engaging in best security practices,
+including changing passwords, secure authentication practices, knowing to avoid phishing
+attacks, and so on.
+5. Scale up your bandwidth
+If DDoS is creating a traffic jam in your network, one way to make that traffic jam less severe
+is to widen the highway. By adding more bandwidth, your organization will be able to
+absorb more to absorb a larger volume of traffic. This solution won’t stop all DDoS attacks,
+however.
+6. Take advantage of anti-DDoS hardware and software
+DDoS attacks have been around for a while and some kinds of attacks are very common.
+There are plenty of products that are prepared to repel or mitigate certain protocol and
+application attacks, for example. Take advantage of those tools.
+7. Move to the cloud
+While this won’t eliminate DDoS attacks, moving to the cloud can mitigate attacks. The
+cloud has more bandwidth than on-premise resources, for example, and the nature of the
+cloud means many servers are not located in the same place.
+8. Know the symptoms of an attack
+Your network slows down inexplicably. The website shuts down. All of a sudden, you’re
+getting a lot of spam. These can all be signs of a DDoS attack. If so, the organization should
+investigate.
+9. Outsource your DDoS protection
+Some companies offer DDoS-as-a-Service. Some of these companies specialize in scaling
+resources to respond to an attack, others bolster defenses, and still, others mitigate the
+damage of an ongoing attack.
+10. Monitor for unusual activity
+Once you know your typical activity and the signs of an attack, monitor your network for
+odd traffic. By monitoring traffic in real-time, your organization will be able to spot a DDoS
+attack when it starts and mitigate it.

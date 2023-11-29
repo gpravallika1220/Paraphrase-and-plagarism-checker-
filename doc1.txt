@@ -1,0 +1,79 @@
+CSE1029 DIGITAL ASSIGNMENT 2
+What is a Cyber Attack?
+When there is an unauthorized system/network access by a third party, we term it as a cyber-attack. The person who carries out a cyberattack is termed as a hacker/attacker. 
+Cyber-attacks have several negative effects. When an attack is carried out, it can lead to data breaches, resulting in data loss or data manipulation. Organizations incur financial losses, customer trust gets hampered, and there is reputational damage. To put a curb on cyberattacks, we implement cybersecurity. Cybersecurity is the method of safeguarding networks, computer systems, and their components from unauthorized digital access.
+There are many varieties of cyber-attacks that happen in the world today. If we know the various types of cyberattacks, it becomes easier for us to protect our networks and systems against them.
+1. Malware Attack: This is one of the most common types of cyberattacks. “Malware” refers to malicious software viruses including worms, spyware, ransomware, adware, and trojans. 
+The trojan virus disguises itself as legitimate software. Ransomware blocks access to the network's key components, whereas Spyware is software that steals all your confidential data without your knowledge. Adware is software that displays advertising content such as banners on a user's screen. 
+Malware breaches a network through a vulnerability. When the user clicks a dangerous link, it downloads an email attachment or when an infected pen drive is used. 
+Let’s now look at how we can prevent a malware attack:
+•	Use antivirus software. It can protect your computer against malware. Avast Antivirus, Norton Antivirus, and McAfee Antivirus are a few of the popular antivirus software.
+•	Use firewalls. Firewalls filter the traffic that may enter your device. Windows and Mac OS X have their default built-in firewalls, named Windows Firewall and Mac Firewall.
+•	Stay alert and avoid clicking on suspicious links.
+•	Update your OS and browsers, regularly.
+2. Phishing Attack: Phishing attacks are one of the most prominent widespread types of cyberattacks. It is a type of social engineering attack wherein an attacker impersonates to be a trusted contact and sends the victim fake mails. 
+Unaware of this, the victim opens the mail and clicks on the malicious link or opens the mail's attachment. By doing so, attackers gain access to confidential information and account credentials. They can also install malware through a phishing attack. 
+Phishing attacks can be prevented by following the below-mentioned steps:
+•	Scrutinize the emails you receive. Most phishing emails have significant errors like spelling mistakes and format changes from that of legitimate sources.
+•	Make use of an anti-phishing toolbar.
+•	Update your passwords regularly.
+3. Password Attack: It is a form of attack wherein a hacker cracks your password with various programs and password cracking tools like AirCrack, Cain, Abel, John the Ripper, Hashcat, etc. There are different types of password attacks like brute force attacks, dictionary attacks, and keylogger attacks.
+Listed below are a few ways to prevent password attacks: 
+•	Use strong alphanumeric passwords with special characters.
+•	Abstain from using the same password for multiple websites or accounts.
+•	Update your passwords; this will limit your exposure to a password attack.
+•	Do not have any password hints in the open.
+4. Man-in-the-Middle Attack: A Man-in-the-Middle Attack (MITM) is also known as an eavesdropping attack. In this attack, an attacker comes in between a two-party communication, i.e., the attacker hijacks the session between a client and host. By doing so, hackers steal and manipulate data. 
+As seen below, the client-server communication has been cut off, and instead, the communication line goes through the hacker.
+MITM attacks can be prevented by following the below-mentioned steps:
+•	Be mindful of the security of the website you are using. Use encryption on your devices.
+•	Refrain from using public Wi-Fi networks.
+5. SQL Injection Attack: A Structured Query Language (SQL) injection attack occurs on a database-driven website when the hacker manipulates a standard SQL query. It is carried by injecting a malicious code into a vulnerable website search box, thereby making the server reveal crucial information.  
+This results in the attacker being able to view, edit, and delete tables in the databases. Attackers can also get administrative rights through this. 
+To prevent a SQL injection attack:
+•	Use an Intrusion detection system, as they design it to detect unauthorized access to a network.
+•	Carry out a validation of the user-supplied data. With a validation process, it keeps the user input in check.
+6. Denial-of-Service Attack: A Denial-of-Service Attack is a significant threat to companies. Here, attackers target systems, servers, or networks and flood them with traffic to exhaust their resources and bandwidth. 
+When this happens, catering to the incoming requests becomes overwhelming for the servers, resulting in the website it hosts either shut down or slow down. This leaves the legitimate service requests unattended. 
+It is also known as a DDoS (Distributed Denial-of-Service) attack when attackers use multiple compromised systems to launch this attack. 
+Let’s now look at how to prevent a DDoS attack:
+•	Run a traffic analysis to identify malicious traffic.
+•	Understand the warning signs like network slowdown, intermittent website shutdowns, etc. At such times, the organization must take the necessary steps without delay.
+•	Formulate an incident response plan, have a checklist and make sure your team and data center can handle a DDoS attack.
+•	Outsource DDoS prevention to cloud-based service providers.
+7. Insider Threat: As the name suggests, an insider threat does not involve a third party but an insider. In such a case; it could be an individual from within the organization who knows everything about the organization. Insider threats have the potential to cause tremendous damages. 
+Insider threats are rampant in small businesses, as the staff there hold access to multiple accounts with data. Reasons for this form of an attack are many, it can be greed, malice, or even carelessness. Insider threats are hard to predict and hence tricky.
+To prevent the insider threat attack:
+•	Organizations should have a good culture of security awareness.
+•	Companies must limit the IT resources staff can have access to depending on their job roles.
+•	Organizations must train employees to spot insider threats. This will help employees understand when a hacker has manipulated or is attempting to misuse the organization's data.
+8. Crypto jacking: The term Crypto jacking is closely related to cryptocurrency. Crypto jacking takes place when attackers access someone else’s computer for mining cryptocurrency. 
+The access is gained by infecting a website or manipulating the victim to click on a malicious link. They also use online ads with JavaScript code for this. Victims are unaware of this as the Crypto mining code works in the background; a delay in the execution is the only sign they might witness. 
+Crypto jacking can be prevented by following the below-mentioned steps:
+•	Update your software and all the security apps as crypto jacking can infect the most unprotected systems.
+•	Have crypto jacking awareness training for the employees; this will help them detect Crypto jacking threats.
+•	Install an ad blocker as ads are a primary source of crypto jacking scripts. Also have extensions like MinerBlock, which is used to identify and block crypto mining scripts.
+9. Zero-Day Exploit: A Zero-Day Exploit happens after the announcement of a network vulnerability; there is no solution for the vulnerability in most cases. Hence the vendor notifies the vulnerability so that the users are aware; however, this news also reaches the attackers.
+Depending on the vulnerability, the vendor or the developer could take any amount of time to fix the issue. Meanwhile, the attackers target the disclosed vulnerability. They make sure to exploit the vulnerability even before a patch or solution is implemented for it. 
+Zero-day exploits can be prevented by:
+•	Organizations should have well-communicated patch management processes. Use management solutions to automate the procedures. Thus, it avoids delays in deployment.
+•	Have an incident response plan to help you deal with a cyberattack. Keep a strategy focussing on zero-day attacks. By doing so, the damage can be reduced or completely avoided.
+10. Watering Hole Attack: The victim here is a particular group of an organization, region, etc. In such an attack, the attacker targets websites which are frequently used by the targeted group. Websites are identified either by closely monitoring the group or by guessing.
+After this, the attackers infect these websites with malware, which infects the victims' systems. The malware in such an attack targets the user's personal information. Here, it is also possible for the hacker to take remote access to the infected computer.
+Let's now see how we can prevent the watering hole attack:
+•	Update your software and reduce the risk of an attacker exploiting vulnerabilities. Make sure to check for security patches regularly.
+•	Use your network security tools to spot watering hole attacks. Intrusion prevention systems(IPS) work well when it comes to detecting such suspicious activities.
+•	To prevent a watering hole attack, it is advised to conceal your online activities. For this, use a VPN and also make use of your browser’s private browsing feature. A VPN delivers a secure connection to another network over the Internet. It acts as a shield for your browsing activity. NordVPN is a good example of a VPN.
+How to Prevent Cyber Attacks?
+Although we had a look at several ways to prevent the different types of cyberattacks, we discussed, let's summarize and look at a few personal tips which you can adopt to avoid a cyberattack on the whole.
+1.	Change your passwords regularly and use strong alphanumeric passwords which are difficult to crack. Refrain from using too complicated passwords that you would tend to forget. Do not use the same password twice.
+2.	Update both your operating system and applications regularly. This is a primary prevention method for any cyber-attack. This will remove vulnerabilities that hackers tend to exploit. Use trusted and legitimate Anti-virus protection software.
+3.	Use a firewall and other network security tools such as Intrusion prevention systems, Access control, Application security, etc.
+4.	Avoid opening emails from unknown senders. Scrutinize the emails you receive for loopholes and significant errors. 
+5.	Make use of a VPN. This makes sure that it encrypts the traffic between the VPN server and your device. 
+6.	Regularly back up your data. According to many security professionals, it is ideal to have three copies of your data on two different media types and another copy in an off-site location (cloud storage). Hence, even in the course of a cyber-attack, you can erase your system’s data and restore it with a recently performed backup.
+7.	Employees should be aware of cybersecurity principles. They must know the various types of cyberattacks and ways to tackle them.
+8.	Use Two-Factor or Multi-Factor Authentication. With two-factor authentication, it requires users to provide two different authentication factors to verify themselves. When you are asked for over two additional authentication methods apart from your username and password, we term it as multi-factor authentication. This proves to be a vital step to secure your account.
+9.	Secure your Wi-Fi networks and avoid using public Wi-Fi without using a VPN. 
+10.	Safeguard your mobile, as mobiles are also a cyberattack target. Install apps from only legitimate and trusted sources, make sure to keep your device updated. 
+
